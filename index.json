@@ -1,68 +1,45 @@
 {
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
     "basics": {
-        "name": "Dmitrii Lisin",
-        "label": "Software Programmer, Embedded Programmer",
-        "image": "https://raw.githubusercontent.com/mrdimfox/mrdimfox.github.io/master/assets/avatar.jpg",
-        "email": "mrlisdim@gmail.com",
-        "phone": "8 (999) 529-5331",
-        "url": "https://dlisin.tk",
-        "summary": "Since childhood, I've been in love with programming. When I began my career as an intern at an electronics design firm, I discovered that I enjoyed creating something that worked in real life rather than just inside my computer. I have finished a lot of embedded projects from different spheres and dealt with numerous instruments, protocols, and peripherals. It has always been my intention to write only high-quality, human-readable code. Had prior team leadership experience, but preferred to work as an equal member of the team. In my free time, I also prefer to extend my knowledge of programming languages, techniques, and trends by working with hobby projects.",
+        "name": "Ilya Stolyarov",
+        "label": "Embedded Software Engineer",
+        "image": "https://avatars.githubusercontent.com/u/1484766?v=4",
+        "email": "ila.embsys@gmail.com",
+        "summary": "A am a programmer of embedded systems firmwares.\n ‣ I have experience in implementation by datasheets and electrical schemes of drivers for onboard chips or attached devices like sensors, servo-motors, etc. Familiar with interfaces like UART, CAN, USB, SPI, I2C, PWM, FMC. I have experience with network protocols like OpenCAN, Modbus, Ethernet, TCP-IP...\n ‣ I prefer to use Zephyr RTOS and know how to configure it including modules, board DTS files, drivers, KConfig parameters. I wide use tools like Git, Make, CMake, GCC/Clang.\n ‣ I have experience of hardware debugging by using oscilloscopes and logic analyzers. I can catch software bugs with SystemView RTOS analyzer and sigrok protocols decoder.\n ‣ I have knowledge in how Linux work and ready to work with it. The knowledge like how is work together bootloader, dts, kernel, initramfs, file systems, HFS, mouniting, system tools, etc... \n ‣ I am experienced a little in FPGA programming. I learned it since studied at university. Have worked with Xilinx Spartan and Altera MAX boards. I have done the course project where I was programming JTAG TAP controller on Xilinx board. Also, I have done one more FPGA project on Altera board during the work experience. \n ‣ Also, I am ready to support developers environment and infrastructure since have experience with preparing build environment by Docker containers for a VSCode devcontainer usage or CI pipelines running (GitLab CI). I have experiense in supporting Virtual Infrastructure of XenServer. \n ‣ At free time I like work on some of my pet projects. I am interested in IoT and learning for backend part, like Kubernetes infrastructure (k3s, storage provisioners, helm, etc...). \n ‣ I enjoy riding a bicycle in a forest or fun in riding a motorcycle gymkhana. I am In love with short kayak walkies. Ready to fun with windsurf, skates, snowboard and other similar activity.\n ‣ 8 year work experience, 28 years old, single: no wife, no child, no pets.",
         "location": {
-            "address": "",
-            "postalCode": "190000",
             "city": "Saint Petersburg",
-            "countryCode": "RU",
-            "region": "Saint Petersburg"
+            "countryCode": "RU"
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "mrlisdim",
-                "url": "https://twitter.com/mrlisdim"
-            },
-            {
                 "network": "Github",
-                "username": "mrdimfox",
-                "url": "https://github.com/mrdimfox"
+                "username": "ila-embsys",
+                "url": "https://github.com/ila-embsys"
             },
             {
                 "network": "Telegram",
-                "username": "@mrlisdim",
-                "url": "https://t.me/mrlisdim"
+                "username": "@IlyaStolyarov",
+                "url": "https://t.me/IlyaStolyarov"
             },
             {
                 "network": "LinkedIn",
-                "username": "dmitrii-lisin",
-                "url": "https://www.linkedin.com/in/dmitrii-lisin/"
+                "username": "ilyastolyarov",
+                "url": "https://www.linkedin.com/in/ilyastolyarov/"
             }
         ]
     },
     "work": [
         {
             "name": "LLC \"Third Pin\"",
-            "position": "Team leader",
+            "position": "Embedded Software Engineer",
             "url": "https://en.thirdpin.io/",
-            "startDate": "2020",
-            "summary": "Developed a flexible testing system for embedded electronics based on distributed micro-services connected by PubSub/RPC Web-protocol.",
-            "highlights": [
-                "Robster: flexible testing system for electronic devices (Python, WAMP, Microservice, Docker, PostgreSQL)",
-                "Gate valve controller (ARM, STM32, Zephyr, Modbus)",
-                "GPS tracker for a professional training (ARM, Nordic, GPS, UBlox, Ant)"
-            ]
-        },
-        {
-            "name": "LLC \"Third Pin\"",
-            "position": "Embedded Software Developer",
-            "url": "https://en.thirdpin.io/",
-            "startDate": "2013-01-01",
-            "endDate": "2020",
+            "startDate": "2014",
             "summary": "Have been finished more than 20 commercial projects in embedded area including IoT, safety systems, shipbuilding.",
             "highlights": [
                 "Pastilda: hardware password manager (STM32, ARM, Crypto Peripheral, SDIO, FatFS, FreeRTOS)",
-                "Ship ruder control system (ARM, STM32, USB HID, FreeRTOS)",
-                "Fire alarm system (ARM, STM32)",
-                "MTUTA: Telemetry of vending machines (ARM, FreeRTOS, USB, SD, SIMCom, GSM, Ethernet, FTP)"
+                "Some control system (ARM, STM32, USB HID, FreeRTOS)",
+                "MTUTA: Telemetry of vending machines (ARM, FreeRTOS, USB, SD, SIMCom, GSM, Ethernet, FTP)",
+                "Information Display (Linux, Custom board, U-Boot, Qt libraries)"
             ]
         }
     ],
@@ -71,11 +48,17 @@
         {
             "institution": "ITMO University",
             "url": "https://en.itmo.ru/",
-            "area": "Intelligent Technologies in Robotics",
+            "area": "Design of Embedded Computing Systems and Systems on a Chip",
             "studyType": "Master",
             "startDate": "2016",
             "endDate": "2018",
-            "courses": []
+            "courses": [
+                "Parallel Computing",
+                "Systems on Chip debugging",
+                "System programming of Mobile and Embedded Systems",
+                "Network protocols",
+                "Security of Systems and Networks"
+            ]
         },
         {
             "institution": "ITMO University",
@@ -84,7 +67,22 @@
             "studyType": "Bachelor",
             "startDate": "2012",
             "endDate": "2016",
-            "courses": []
+            "courses": [
+                "Electrical engineering basics",
+                "Electromechanical systems",
+                "Electrical machines",
+                "Control systems basics",
+                "Microcontroller control systems",
+                "PLC programming",
+                "Systems software",
+                "Computer vision basics",
+                "Networks and telecommunications",
+                "Information converters",
+                "Engineering drawing",
+                "Analytical mechanics",
+                "Technologies of structural materials treatment",
+                "Interchangeably of machinery parts"
+            ]
         }
     ],
     "awards": [],
@@ -96,65 +94,136 @@
             "level": "Master",
             "keywords": [
                 "C/C++",
-                "Zephyr",
+                "Zephyr RTOS",
                 "FreeRTOS",
                 "STM32",
-                "Nordic",
-                "Real-time protocols",
-                "Industrial protocols",
-                "Stack only programming"
+                "Stack only programming",
+                "GCC/Clang",
+                "Make",
+                "CMake",
+                "Linux"
             ]
         },
         {
-            "name": "Python Development",
-            "level": "Advanced",
+            "name": "Peripherals knowledge",
+            "level": "Master",
             "keywords": [
-                "FastAPI",
-                "Pydantic",
-                "ORM",
-                "WAMP protocol",
-                "Async",
-                "Threading"
+                "UART",
+                "CAN",
+                "USB",
+                "SPI",
+                "I2C",
+                "ADC",
+                "DAC",
+                "FMC",
+                "Timers"
+            ]
+        },
+        {
+            "name": "Industrial protocols",
+            "level": "Master",
+            "keywords": [
+                "CANopen",
+                "Modbus",
+                "Ethernet",
+                "IP",
+                "TCP",
+                "UDP"
+            ]
+        },
+        {
+            "name": "Embedded Systems Debugging",
+            "level": "Master",
+            "keywords": [
+                "Oscilloscope usage",
+                "Logic analyzers usage",
+                "SystemView",
+                "sigrok",
+                "Renode",
+                "Soldering"
             ]
         },
         {
             "name": "CI/CD",
-            "level": "Intermediate",
+            "level": "Advanced",
             "keywords": [
                 "Docker",
                 "Docker Compose",
-                "Github Actions",
-                "Gitlab Pipelines"
+                "Gitlab Pipelines",
+                "Github Actions"
             ]
         },
         {
-            "name": "Web Development",
+            "name": "FPGA programming",
             "level": "Intermediate",
+            "keywords": [
+                "Verilog/SystemVerilog",
+                "Altera",
+                "Xilinx",
+                "ModelSim",
+                "cocotb"
+            ]
+        },
+        {
+            "name": "Support Tools Programming",
+            "level": "Intermediate",
+            "keywords": [
+                "Python",
+                "Perl",
+                "TypeScript",
+                "Bash",
+                "SQL",
+                "MariaDB",
+                "Docker",
+                "Debian Packaging",
+                "OpenBuildService"
+            ]
+        },
+        {
+            "name": "Infrastructure support",
+            "level": "Intermediate",
+            "keywords": [
+                "XenServer",
+                "TrueNAS",
+                "FreeRadius",
+                "LDAP",
+                "VMs",
+                "Containers",
+                "Portainer",
+                "MicroOS",
+                "MariaDB"
+            ]
+        },
+        {
+            "name": "IoT Cloud Infrastructure",
+            "level": "Learn",
+            "keywords": [
+                "Kubernetes resources",
+                "k3s",
+                "kubectl",
+                "helm",
+                "MQTT",
+                "HiveMQ"
+            ]
+        },
+        {
+            "name": "Web-based app prototyping",
+            "level": "Support",
             "keywords": [
                 "HTML",
                 "CSS",
-                "JavaScript",
-                "Typescript",
+                "TypeScript",
                 "React",
-                "Parcel",
                 "Rollup"
-            ]
-        },
-        {
-            "name": "Rust",
-            "level": "Beginner",
-            "keywords": [
-                "Tauri"
             ]
         },
         {
             "name": "Common",
             "level": "",
             "keywords": [
-                "VSC",
-                "Gitlab",
-                "Github",
-                "Reviewing",
+                "Git",
+                "GitLab",
+                "GitHub",
                 "Linux",
                 "Reading schematics",
                 "Datasheet exploring"
@@ -164,7 +233,7 @@
     "languages": [
         {
             "language": "English",
-            "fluency": "Fluent"
+            "fluency": "Near Fluent (B2-C1)"
         },
         {
             "language": "Russian",
@@ -173,20 +242,29 @@
     ],
     "interests": [
         {
-            "name": "Games",
-            "keywords": []
+            "name": "Programming",
+            "keywords": [
+                "Rust",
+                "Ada",
+                "OpenBuildService",
+                "IoT",
+                "Kubernetes",
+                "GitPod"
+            ]
         },
         {
-            "name": "Books",
-            "keywords": []
-        },
-        {
-            "name": "Traveling",
-            "keywords": []
-        },
-        {
-            "name": "Hobby programming",
-            "keywords": []
+            "name": "Life",
+            "keywords": [
+                "Bicycle",
+                "Motorcycle",
+                "Short kayak walkies",
+                "Skates",
+                "Snowboard",
+                "Windsurf",
+                "Music theory",
+                "Piano",
+                "Guitar"
+            ]
         }
     ],
     "references": [],
@@ -198,11 +276,32 @@
             "keywords": [
                 "C++",
                 "Embedded",
-                "Open-source"
+                "Open-source",
+                "crowdsupply"
             ],
             "startDate": "2016",
             "endDate": "2017",
             "url": "https://bitbucket.org/thirdpin_team/pastilda",
+            "roles": [
+                "Developer"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "MTUTA",
+            "summary": "Vending machines remote management module. A large vending company approached for R&D of a modem for collecting and transmitting data from a geographically distributed network of vending machines.",
+            "highlights": [],
+            "startDate": "2018",
+            "endDate": "2019",
+            "keywords": [
+                "C++",
+                "Embedded",
+                "FreeRTOS",
+                "USB",
+                "SIMCom"
+            ],
+            "url": "https://en.thirdpin.io/projects/communication-and-telemetry/mtuta",
             "roles": [
                 "Developer"
             ],
@@ -220,12 +319,79 @@
                 "React"
             ],
             "startDate": "2021",
-            "url": "https://github.com/ila-embsys/justrunmydebugger",
+            "url": "https://ila-embsys.github.io/justrunmydebugger/",
             "roles": [
-                "Developer"
+                "Maintainer"
             ],
             "entity": "Entity",
             "type": "application"
-        }
+        },
+        {
+            "name": "Ada lang on Zephyr RTOS",
+            "summary": "It is a project where keep results of checking an idea of possibility to use Ada lang with Zephyr RTOS.\nIt contains:\n             - A repository with a proof of concept that Ada can run over Zephyr RTOS as a user application. Implemented with GitPod cloud IDE.\n             - Zephyr toolchain that compiled from sources with patches to enable Ada compiler.\n             - SDK that built into Docker image to use as VS Code's devcontainer.\n             - Toolchain DEB packages that build with OpenBuildService.\n             - CMake module for Ada support that added to compile Ada adb files with CMake.\n             - The minimal working piece of Ada GNAT library that implemented as Zephyr module.\n             - VS Code's tasks that added for easy firmware run on Renode emulator and attaching to shell.",
+            "startDate": "2020",
+            "url": "https://github.com/zephyr-ada",
+            "roles": [
+                "Maintainer"
+            ],
+            "keywords": [
+                "OpenBuildService usage",
+                "OpenBuildService contributing",
+                "DEB packaging",
+                "GCC building",
+                "GCC patching",
+                "GitPod"
+            ]
+        },
+        {
+            "name": "TerosHDL cocotb support",
+            "startDate": "2021-03",
+            "endDate": "2021-06",
+            "summary": "TerosHDL is an open source IDE for HDL developers. I contributed to them a cocotb support.",
+            "url": "https://github.com/TerosTechnology/vscode-terosHDL/pull/86",
+            "roles": [
+                "Contributor"
+            ],
+            "keywords": [
+                "Contributing",
+                "TypeScript",
+                "VSCode plugin",
+                "Verilog",
+                "SystemVerilog",
+                "OpenSource",
+                "cocotb"
+            ]
+        },
+        {
+            "name": "Open Build Service",
+            "startDate": "2022-01",
+            "endDate": "2022-06",
+            "summary": "Open Build Service is a generic system to build and distribute binary packages from sources. I had contributed a new feature that I was need. As a result, I got some Perl experience and an experience of working with open-source project.",
+            "url": "https://github.com/openSUSE/obs-build",
+            "roles": [
+                "Contributor"
+            ],
+            "keywords": [
+                "Contributing",
+                "DEB packaging",
+                "Perl"
+            ]
+        },
+        {
+            "name": "JTAG TAP controller",
+            "startDate": "2017-09",
+            "endDate": "2018-02",
+            "summary": "The part of university course for knowing FPGA programming.",
+            "url": "https://bitbucket.org/IlyaStolyarov/jtag",
+            "roles": [
+                "Author"
+            ],
+            "keywords": [
+                "FPGA",
+                "Verilog",
+                "SystemVerilog",
+                "Xilinx"
+            ]
+        }        
     ]
 }
